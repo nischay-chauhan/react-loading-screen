@@ -24,12 +24,13 @@ function PreLoader1() {
     return (
       <>
         {!done ? (
-          <ReactLoading
-            type={"bars"}
-            color={"#03fc4e"}
+            <ReactLoading
+            type={"balls"}
+            color={"#3e92cc"}
             height={100}
             width={100}
-          />
+            />
+
         ) : (
           <ul>
             {data.map((post) => (
