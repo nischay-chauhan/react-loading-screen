@@ -1,18 +1,27 @@
-*,*::before,*::after{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
   }
   
-  body{
-   background-color:#1b1b1b;
-   color:white;
+  ul {
+    list-style-type: none;
+    padding: 0;
   }
   
-  .App{
-    width:100vw;
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+  li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
+  
+  .loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
